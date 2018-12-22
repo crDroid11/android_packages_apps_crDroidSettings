@@ -105,6 +105,13 @@
         android:summary="@string/hide_apps_from_recents_summary"
         android:fragment="com.crdroid.settings.fragments.misc.HAFRSettings" /> -->
 
+    <!-- USB Configuration -->
+    <Preference
+            android:key="default_usb_configuration"
+            android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
+            android:title="@string/usb_default_config_title"
+            android:summary="@string/usb_default_config_summary"/>
+
     <!-- Gaming Mode -->
     <Preference
         android:key="gaming_mode"
